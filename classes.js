@@ -9,9 +9,10 @@ area(){
     return area
 }
 paint(){
-    console.log(`the color of this rectangle is ${color}`);
+    console.log(`the color of this rectangle is ${this.color}`);
 }
 }
 const rect= new Rectangle(2,4,"blue");
 const area= rect.area();
 console.log(area);
+console.log(rect.paint());
